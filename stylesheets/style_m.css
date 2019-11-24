@@ -1,0 +1,27 @@
+/* Fixed header and footer.
+	* --------------------------------------- */
+/* line 5, ../sass/style_m.scss */
+#header, #footer {
+  position: fixed;
+  height: 50px;
+  display: block;
+  width: 100%;
+  z-index: 9;
+  padding: 20px 0 0 0;
+}
+
+/* line 17, ../sass/style_m.scss */
+#header {
+  top: 0px;
+}
+
+/* line 22, ../sass/style_m.scss */
+nav {
+  box-shadow: 0 0 0 0;
+  background-color: transparent !important;
+}
+
+/* line 28, ../sass/style_m.scss */
+.nav_SB a {
+  color: black !important;
+}

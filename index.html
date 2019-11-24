@@ -9,15 +9,16 @@
     <!-- FRAMEWORKS-->
           <!-- Materialize CDN -->
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
+          <!-- Materialize Icons -->
+           <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
           <!--  PLUGINS-->
                 <!--  Fullpage css file-->
           <link rel="stylesheet" href="pluggins/fullpage_dists/fullpage.css">
 
          <!--- MY css -------->
-         <link rel="stylesheet" href="stylesheets/style.css">      
+         <link rel="stylesheet" href="stylesheets/style.css">
 
-  
+
     <title>M/M_S</title>
 
 
@@ -25,61 +26,63 @@
 </head>
 <body>
 
+  <div class="navbar-fixed nav_SB" id="header">
+      <nav>
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo"><i class="material-icons">cloud</i>Logo</a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="sass.html"><i class="material-icons">search</i></a></li>
+            <li><a href="badges.html"><i class="material-icons">view_module</i></a></li>
+            <li><a href="collapsible.html"><i class="material-icons">refresh</i></a></li>
+            <li><a href="mobile.html"><i class="material-icons">more_vert</i></a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
 
-
-    <div class="navbar-fixed nav_SB">
-        <nav>
-          <div class="nav-wrapper">
-            <a href="#!" class="brand-logo">Logo</a>
-            <ul class="right hide-on-med-and-down">
-              <li><a href="sass.html">Sass</a></li>
-              <li><a href="badges.html">Components</a></li>
-            </ul>
-          </div>
-        </nav>
-      </div>
 
     <div id="fullpage">
 
-                
-                
+
+
+
                         <div class="section section0" id="section0">
                                 <!--  COVER img background outside fullpage div > paralax effect -->
                                 <div class="slide fp-auto-height" id="slide1"></div>
                         </div>
-                
-                
+
+
                         <div class="section section1" id="section1">
                                 <!--  COVER img background outside fullpage div > paralax effect -->
                                 <div class="slide fp-auto-height" id="slide1"></div>
                         </div>
-                
 
 
-                
-                
+
+
+
                         <div class="section section2" id="section2">
                                 <!--  COVER img background outside fullpage div > paralax effect -->
                                 <div class="slide fp-auto-height" id="slide1"></div>
                             </div>
-               
-
-                
-     </div>     
 
 
+
+     </div>
 
 
 
 
 
 
-<!---------------------JS Import Endo_Body --------------->  
+
+
+<!---------------------JS Import Endo_Body --------------->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
         <!---- Main JS ------------->
     <script src="js/main.js"></script>
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/vendors/scrolloverflow.js"></script>
     <script type="text/javascript" src="pluggins/fullpage_dists/fullpage.js"></script>
 
@@ -88,7 +91,7 @@
               <script type="text/javascript">
                   var myFullpage = new fullpage('#fullpage', {
                       anchors: ['firstSection', 'secondSection', 'thirdSection','fourthSection'],
-                      sectionsColor: ['#FFFF','#7E8F7C', '#7E8F7C', '#F07176'],
+                      sectionsColor: ['#FFFF','#FFDBDC', '#3A4664', '#AAAAAA'],
                       scrollOverflow: true,
                       navigation: true,
                       navigationPosition: 'left',
