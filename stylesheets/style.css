@@ -63,9 +63,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
+/* line 14, ../sass/style_m.scss */
+#section0 .fp-tableCell {
+  vertical-align: top;
+}
+
 /* Fixed header and footer.
 	* --------------------------------------- */
-/* line 5, ../sass/style_m.scss */
+/* line 19, ../sass/style_m.scss */
 #header, #footer {
   position: fixed;
   height: 50px;
@@ -75,28 +80,41 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding: 20px 0 0 0;
 }
 
-/* line 17, ../sass/style_m.scss */
+/* line 31, ../sass/style_m.scss */
 #header {
   top: 0px;
 }
 
-/* line 22, ../sass/style_m.scss */
+/* line 36, ../sass/style_m.scss */
 nav {
   box-shadow: 0 0 0 0;
   background-color: transparent !important;
 }
 
-/* line 28, ../sass/style_m.scss */
+/* line 42, ../sass/style_m.scss */
 .nav_SB a {
   color: black !important;
 }
 
-/* line 18, ../sass/style.scss */
-.section0 {
-  background-color: red;
-  height: 800px;
-  width: 100%;
-  background-size: 100% 800px;
-  background-position-y: center;
-  background-position-x: center;
+/* line 52, ../sass/style_m.scss */
+.logo_m {
+  margin-left: 30px;
+  margin-top: 10px;
+  height: 70px;
+  widows: 70px;
 }
+
+/*.section0{
+    //background-image: url("../img/M_M_Logo_wallpaper.jpg");
+    //background-color: red;
+    height:800px;
+    width:100%;
+    background-size: 100% 800px;
+    background-position-y:center;
+    background-position-x:center;
+
+}
+
+.home_img{
+  height: auto;
+}*/
