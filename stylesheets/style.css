@@ -1,4 +1,4 @@
-/* line 5, ../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,57 +20,53 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
 
-/* line 14, ../sass/style_m.scss */
-#section0 .fp-tableCell {
-  vertical-align: top;
-}
-
-/* Fixed header and footer.
-	* --------------------------------------- */
-/* line 19, ../sass/style_m.scss */
+/*#section0 .fp-tableCell{
+     vertical-align: top;
+}*/
+/* line 7, ../sass/style_m.scss */
 #header, #footer {
   position: fixed;
   height: 50px;
@@ -78,25 +74,21 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 100%;
   z-index: 9;
   padding: 20px 0 0 0;
-}
-
-/* line 31, ../sass/style_m.scss */
-#header {
   top: 0px;
 }
 
-/* line 36, ../sass/style_m.scss */
+/* line 22, ../sass/style_m.scss */
 nav {
   box-shadow: 0 0 0 0;
   background-color: transparent !important;
 }
 
-/* line 42, ../sass/style_m.scss */
+/* line 28, ../sass/style_m.scss */
 .nav_SB a {
   color: black !important;
 }
 
-/* line 52, ../sass/style_m.scss */
+/* line 33, ../sass/style_m.scss */
 .logo_m {
   margin-left: 30px;
   margin-top: 10px;
@@ -104,6 +96,31 @@ nav {
   widows: 70px;
 }
 
+/* line 43, ../sass/style_m.scss */
+.home_img {
+  margin-top: 50vw;
+}
+
+/* line 50, ../sass/style_m.scss */
+.wrapper_center {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* line 61, ../sass/style_m.scss */
+.se011, .se012 {
+  background-color: black;
+  height: 500px;
+  margin-top: 10vw;
+}
+
+@media screen and (min-width: 600px) {
+  /* line 3, ../sass/style_d.scss */
+  .home_img {
+    margin-top: 10vw;
+  }
+}
 /*.section0{
     //background-image: url("../img/M_M_Logo_wallpaper.jpg");
     //background-color: red;
@@ -114,7 +131,4 @@ nav {
     background-position-x:center;
 
 }
-
-.home_img{
-  height: auto;
-}*/
+*/

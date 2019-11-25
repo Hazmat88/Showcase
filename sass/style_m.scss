@@ -1,22 +1,10 @@
 
-.home_img{
-  //height:
-  //margin-top:40vw;
-	//position:inline-block;
-	//margin-top:50vw;
-}
-
-.wrapper_center{
-
-
-}
-
-#section0 .fp-tableCell{
+/*#section0 .fp-tableCell{
      vertical-align: top;
-}
-/* Fixed header and footer.
-	* --------------------------------------- */
-	#header, #footer{
+}*/
+
+//////////////////////// NAV /////////////////////////
+#header, #footer{
 		position:fixed;
 		height: 50px;
 		display:block;
@@ -26,11 +14,9 @@
 	  //text-align:center;
 		//color: #f2f2f2;
 		padding: 20px 0 0 0;
+    top:0px;
 	}
 
-	#header{
-		top:0px;
-	}
 
 
 nav{
@@ -44,14 +30,36 @@ background-color: rgba(0, 0, 0, 0) !important;
   }
 }
 
-
-.nav-wrapper{
-
-}
-
 .logo_m{
   margin-left:30px;
   margin-top:10px;
   height: 70px;
   widows: 70px;
+}
+
+
+////////////////////////// LOGO //////////////////////////////
+
+.home_img{
+  //height:
+  margin-top:50vw;
+	//position:inline-block;
+	//margin-top:50vw;
+}
+
+.wrapper_center{
+    text-align: center;
+    display:table-cell;
+    vertical-align:middle;
+
+}
+
+
+/////////////////////////////////////////////////////////////////
+
+
+.se011,.se012{
+  background-color: black;
+  height:500px;
+  margin-top:10vw;
 }

@@ -1,11 +1,7 @@
-/* line 14, ../sass/style_m.scss */
-#section0 .fp-tableCell {
-  vertical-align: top;
-}
-
-/* Fixed header and footer.
-	* --------------------------------------- */
-/* line 19, ../sass/style_m.scss */
+/*#section0 .fp-tableCell{
+     vertical-align: top;
+}*/
+/* line 7, ../sass/style_m.scss */
 #header, #footer {
   position: fixed;
   height: 50px;
@@ -13,28 +9,43 @@
   width: 100%;
   z-index: 9;
   padding: 20px 0 0 0;
-}
-
-/* line 31, ../sass/style_m.scss */
-#header {
   top: 0px;
 }
 
-/* line 36, ../sass/style_m.scss */
+/* line 22, ../sass/style_m.scss */
 nav {
   box-shadow: 0 0 0 0;
   background-color: transparent !important;
 }
 
-/* line 42, ../sass/style_m.scss */
+/* line 28, ../sass/style_m.scss */
 .nav_SB a {
   color: black !important;
 }
 
-/* line 52, ../sass/style_m.scss */
+/* line 33, ../sass/style_m.scss */
 .logo_m {
   margin-left: 30px;
   margin-top: 10px;
   height: 70px;
   widows: 70px;
+}
+
+/* line 43, ../sass/style_m.scss */
+.home_img {
+  margin-top: 50vw;
+}
+
+/* line 50, ../sass/style_m.scss */
+.wrapper_center {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* line 61, ../sass/style_m.scss */
+.se011, .se012 {
+  background-color: black;
+  height: 500px;
+  margin-top: 10vw;
 }
