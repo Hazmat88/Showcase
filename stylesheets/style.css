@@ -96,19 +96,24 @@ nav {
   widows: 70px;
 }
 
-/* line 43, ../sass/style_m.scss */
+/* line 40, ../sass/style_m.scss */
+.brand-logo {
+  left: 45%;
+}
+
+/* line 47, ../sass/style_m.scss */
 .home_img {
   margin-top: 50vw;
 }
 
-/* line 50, ../sass/style_m.scss */
+/* line 54, ../sass/style_m.scss */
 .wrapper_center {
   text-align: center;
   display: table-cell;
   vertical-align: middle;
 }
 
-/* line 61, ../sass/style_m.scss */
+/* line 65, ../sass/style_m.scss */
 .se011, .se012 {
   background-color: black;
   height: 500px;
@@ -119,6 +124,11 @@ nav {
   /* line 3, ../sass/style_d.scss */
   .home_img {
     margin-top: 10vw;
+  }
+
+  /* line 7, ../sass/style_d.scss */
+  .brand-logo {
+    left: 0px;
   }
 }
 /*.section0{
