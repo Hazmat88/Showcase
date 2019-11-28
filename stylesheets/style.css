@@ -93,8 +93,8 @@ nav {
 .logo_m {
   margin-left: 30px;
   margin-top: 10px;
-  height: 70px;
-  widows: 70px;
+  height: 50px;
+  widows: 50px;
 }
 
 /* line 40, ../sass/style_m.scss */
@@ -119,7 +119,9 @@ nav {
 .se011, .se012 {
   background-color: black;
   height: 700px;
-  margin-top: 25vw;
+  margin-top: 20vw;
+  min-height: 400px;
+  margin-bottom: 0vw !important;
 }
 
 /* FONTS */
@@ -140,7 +142,17 @@ h1, h2, p, a {
   font-size: 2em;
 }
 
-/* line 32, ../sass/style.scss */
+/* line 33, ../sass/style.scss */
+.row {
+  margin-bottom: 0px !important;
+}
+
+/* line 36, ../sass/style.scss */
+.section {
+  padding-bottom: 0px !important;
+}
+
+/* line 39, ../sass/style.scss */
 .title {
   position: absolute;
   color: white;
@@ -148,7 +160,7 @@ h1, h2, p, a {
   left: 50px;
 }
 
-/* line 40, ../sass/style.scss */
+/* line 47, ../sass/style.scss */
 .button_0 {
   position: absolute !important;
   bottom: 15% !important;
@@ -158,7 +170,7 @@ h1, h2, p, a {
   color: #212121;
 }
 
-/* line 52, ../sass/style.scss */
+/* line 59, ../sass/style.scss */
 .title {
   position: absolute;
   color: white;
@@ -166,7 +178,7 @@ h1, h2, p, a {
   left: 50px;
 }
 
-/* line 60, ../sass/style.scss */
+/* line 67, ../sass/style.scss */
 .button_2 {
   position: absolute !important;
   bottom: 15% !important;
