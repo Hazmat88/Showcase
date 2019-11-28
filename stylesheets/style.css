@@ -104,18 +104,23 @@ nav {
 }
 
 /* line 49, ../sass/style_m.scss */
-.home_img {
-  margin-top: 50vw;
+.section0 .fp-tableCell {
+  display: inline-block !important;
 }
 
-/* line 56, ../sass/style_m.scss */
+/* line 53, ../sass/style_m.scss */
+.home_img {
+  margin-top: 70%;
+}
+
+/* line 60, ../sass/style_m.scss */
 .wrapper_center {
   text-align: center;
   display: table-cell;
   vertical-align: middle;
 }
 
-/* line 67, ../sass/style_m.scss */
+/* line 71, ../sass/style_m.scss */
 .se011, .se012 {
   background-color: black;
   height: 500px;
