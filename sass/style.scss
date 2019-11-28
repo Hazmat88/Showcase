@@ -6,15 +6,66 @@
 @import "style_m.scss";
 
 
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+// RESPONSIVE *************************
 @media screen and (min-width: 600px){
     @import "style_d.scss";
 }
 
 
+// ************* GENERAL ********************
+
+h1,h2,p,a{
+  font-family: 'Roboto', sans-serif;
+//  text-align:center;
+  font-size: 2em;
+}
+
 //************** NAVBAR *********************
 
 
+//************** SECTION 1 *********************
+.title{
+  position:absolute;
+  color:white;
+  top:60%;
+  left:50px;
 
+}
+
+.button_0{
+  position:absolute !important;
+  //text-align:center !important;
+  bottom:15% !important;
+  left:35%;
+  z-index:5;
+  background-color: #FFDBDC !important;
+  color:#212121;
+}
+
+
+//************** SECTION 2 *********************
+.title{
+  position:absolute;
+  color:white;
+  top:60%;
+  left:50px;
+
+}
+
+.button_2{
+  position:absolute !important;
+  //text-align:center !important;
+  bottom:15% !important;
+  left:35%;
+  z-index:5;
+  background-color: #3A4664 !important;
+  color:#212121;
+}
 
 
 //************** SECTION 0 ******************

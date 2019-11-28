@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 /* line 5, ../../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -98,28 +99,30 @@ nav {
 
 /* line 40, ../sass/style_m.scss */
 .brand-logo {
-  left: 45%;
+  margin-left: 50px;
+  left: 0% !important;
 }
 
-/* line 47, ../sass/style_m.scss */
+/* line 48, ../sass/style_m.scss */
 .home_img {
   margin-top: 50vw;
 }
 
-/* line 54, ../sass/style_m.scss */
+/* line 55, ../sass/style_m.scss */
 .wrapper_center {
   text-align: center;
   display: table-cell;
   vertical-align: middle;
 }
 
-/* line 65, ../sass/style_m.scss */
+/* line 66, ../sass/style_m.scss */
 .se011, .se012 {
   background-color: black;
-  height: 500px;
-  margin-top: 10vw;
+  height: 700px;
+  margin-top: 25vw;
 }
 
+/* FONTS */
 @media screen and (min-width: 600px) {
   /* line 3, ../sass/style_d.scss */
   .home_img {
@@ -131,6 +134,48 @@ nav {
     left: 0px;
   }
 }
+/* line 22, ../sass/style.scss */
+h1, h2, p, a {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+}
+
+/* line 32, ../sass/style.scss */
+.title {
+  position: absolute;
+  color: white;
+  top: 60%;
+  left: 50px;
+}
+
+/* line 40, ../sass/style.scss */
+.button_0 {
+  position: absolute !important;
+  bottom: 15% !important;
+  left: 35%;
+  z-index: 5;
+  background-color: #FFDBDC !important;
+  color: #212121;
+}
+
+/* line 52, ../sass/style.scss */
+.title {
+  position: absolute;
+  color: white;
+  top: 60%;
+  left: 50px;
+}
+
+/* line 60, ../sass/style.scss */
+.button_2 {
+  position: absolute !important;
+  bottom: 15% !important;
+  left: 35%;
+  z-index: 5;
+  background-color: #3A4664 !important;
+  color: #212121;
+}
+
 /*.section0{
     //background-image: url("../img/M_M_Logo_wallpaper.jpg");
     //background-color: red;

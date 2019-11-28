@@ -33,24 +33,25 @@ nav {
 
 /* line 40, ../sass/style_m.scss */
 .brand-logo {
-  left: 45%;
+  margin-left: 50px;
+  left: 0% !important;
 }
 
-/* line 47, ../sass/style_m.scss */
+/* line 48, ../sass/style_m.scss */
 .home_img {
   margin-top: 50vw;
 }
 
-/* line 54, ../sass/style_m.scss */
+/* line 55, ../sass/style_m.scss */
 .wrapper_center {
   text-align: center;
   display: table-cell;
   vertical-align: middle;
 }
 
-/* line 65, ../sass/style_m.scss */
+/* line 66, ../sass/style_m.scss */
 .se011, .se012 {
   background-color: black;
-  height: 500px;
-  margin-top: 10vw;
+  height: 700px;
+  margin-top: 25vw;
 }
