@@ -76,3 +76,46 @@ background-color: rgba(0, 0, 0, 0) !important;
 
 	margin-bottom:0vw !important;
 }
+
+////////////////////////// ANIMATIONS TEST /////////////////////////
+
+// *************** ITEM FIXED ISSU
+.section0 >.logo_m  {
+	transform: translateY(100%);
+	opacity: 0;
+	transition: transform .8s cubic-bezier(0.16, 0.68, 0.43, 0.99),
+				opacity .8s ease-in-out;
+}
+
+.section0.active > .logo_m {
+	transform: translateY(0);
+	transition-delay: .4s;
+	opacity: 1;
+}
+//****************
+
+// S0 IMG
+.section0 > .fp-tableCell .home_img {
+	transform: translateX(-1000px);
+	opacity: 0;
+	transition: transform .8s cubic-bezier(0.16, 0.68, 0.43, 0.99),
+				opacity .8s ease-in-out;
+}
+/* S1 h2 on active */
+.section0.active > .fp-tableCell .home_img {
+	transform: translateX(0);
+	opacity: 1;
+}
+
+/// SECTION 1
+.section1 > .fp-tableCell h1 {
+	transform: translateY(-1000px);
+	opacity: 0;
+	transition: transform .8s cubic-bezier(0.16, 0.68, 0.43, 0.99),
+				opacity .8s ease-in-out;
+}
+/* S1 h2 on active */
+.section1.active > .fp-tableCell h1 {
+	transform: translateY(0);
+	opacity: 1;
+}

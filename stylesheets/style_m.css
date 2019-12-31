@@ -62,3 +62,45 @@ nav {
   max-height: 700px;
   margin-bottom: 0vw !important;
 }
+
+/* line 83, ../sass/style_m.scss */
+.section0 > .logo_m {
+  transform: translateY(100%);
+  opacity: 0;
+  transition: transform 0.8s cubic-bezier(0.16, 0.68, 0.43, 0.99), opacity 0.8s ease-in-out;
+}
+
+/* line 90, ../sass/style_m.scss */
+.section0.active > .logo_m {
+  transform: translateY(0);
+  transition-delay: .4s;
+  opacity: 1;
+}
+
+/* line 98, ../sass/style_m.scss */
+.section0 > .fp-tableCell .home_img {
+  transform: translateX(-1000px);
+  opacity: 0;
+  transition: transform 0.8s cubic-bezier(0.16, 0.68, 0.43, 0.99), opacity 0.8s ease-in-out;
+}
+
+/* S1 h2 on active */
+/* line 105, ../sass/style_m.scss */
+.section0.active > .fp-tableCell .home_img {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+/* line 111, ../sass/style_m.scss */
+.section1 > .fp-tableCell h1 {
+  transform: translateY(-1000px);
+  opacity: 0;
+  transition: transform 0.8s cubic-bezier(0.16, 0.68, 0.43, 0.99), opacity 0.8s ease-in-out;
+}
+
+/* S1 h2 on active */
+/* line 118, ../sass/style_m.scss */
+.section1.active > .fp-tableCell h1 {
+  transform: translateY(0);
+  opacity: 1;
+}
